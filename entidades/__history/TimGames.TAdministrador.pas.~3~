@@ -2,7 +2,7 @@ unit TimGames.TAdministrador;
 
 interface
   uses
-  System.SysUtils, Vcl.Graphics;
+  System.SysUtils;
 implementation
 
 end.
