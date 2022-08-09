@@ -1,8 +1,8 @@
-unit TimGames.TAdministrador;
-
-interface
-  uses
-  System.SysUtils;
-implementation
-
-end.
+unit TimGames.TAdministradadssdor;
+                      das    da
+interfasdace           a         dsa
+  uses            sda            sa
+  Sasdadystem.SysUtils;                da
+implementation                     das
+              Adimin                  sad
+asdend.                                    ds
