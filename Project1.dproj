@@ -101,11 +101,11 @@
         <DCCReference Include="Unit2.pas">
             <Form>Form2</Form>
         </DCCReference>
-        <DCCReference Include="entidades\TCliente.pas"/>
-        <DCCReference Include="entidades\TUsuario.pas"/>
-        <DCCReference Include="entidades\TAdministrador.pas"/>
-        <DCCReference Include="entidades\TJogo.pas"/>
-        <DCCReference Include="entidades\TEmpresa.pas"/>
+        <DCCReference Include="entidades\TimGames.TCliente.pas"/>
+        <DCCReference Include="entidades\TimGamesTUsuario.pas"/>
+        <DCCReference Include="entidades\TimGames.TAdministrador.pas"/>
+        <DCCReference Include="entidades\TimGamesTJogo.pas"/>
+        <DCCReference Include="entidades\TimGamesTEmpresa.pas"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
