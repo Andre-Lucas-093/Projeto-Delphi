@@ -25,5 +25,7 @@
     <Transaction>2022/08/09 19:35:10.971,C:\Delphi\Projeto-Delphi\entidades\TimGames.TEmpresa.pas=C:\Delphi\Projeto-Delphi\entidades\TimGamesTEmpresa.pas</Transaction>
     <Transaction>2022/08/09 19:35:19.749,C:\Delphi\Projeto-Delphi\entidades\TimGames.TJogo.pas=C:\Delphi\Projeto-Delphi\entidades\TimGamesTJogo.pas</Transaction>
     <Transaction>2022/08/09 19:35:23.713,C:\Delphi\Projeto-Delphi\entidades\TimGames.TUsuario.pas=C:\Delphi\Projeto-Delphi\entidades\TimGamesTUsuario.pas</Transaction>
-  </Transactions>
+    <Transaction>2022/08/09 20:13:38.107,C:\Delphi\Projeto-Delphi\entidades\TimGamesTUsuario.pas=C:\Delphi\Projeto-Delphi\entidades\TimGames.TUsuario.pas</Transaction>
+    <Transaction>2022/08/09 20:14:48.504,C:\Delphi\Projeto-Delphi\entidades\TimGames.TUsuario.pas=C:\Delphi\Projeto-Delphi\entidades\TimGamesTUsuario.pas</Transaction>
+  </Transactions>  <BT_BuildType>Debug</BT_BuildType>
 </BorlandProject>
