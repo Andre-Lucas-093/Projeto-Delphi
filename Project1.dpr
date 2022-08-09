@@ -4,10 +4,10 @@ uses
   Vcl.Forms,
   Unit2 in 'Unit2.pas' {Form2},
   TimGames.TCliente in 'entidades\TimGames.TCliente.pas',
-  TimGamesTUsuario in 'entidades\TimGamesTUsuario.pas',
+  TimGames.TUsuario in 'entidades\TimGames.TUsuario.pas',
   TimGames.TAdministrador in 'entidades\TimGames.TAdministrador.pas',
-  TimGamesTJogo in 'entidades\TimGamesTJogo.pas',
-  TimGamesTEmpresa in 'entidades\TimGamesTEmpresa.pas';
+  TimGames.TJogo in 'entidades\TimGames.TJogo.pas',
+  TimGames.TEmpresa in 'entidades\TimGames.TEmpresa.pas';
 
 {$R *.res}
 
