@@ -2,12 +2,12 @@ program TimGames;
 
 uses
   Vcl.Forms,
-  FrmMenuPrincipal in 'FrmMenuPrincipal.pas' {FrmPrincipalPadrao},
-  TimGames.TCliente in 'entidades\TimGames.TCliente.pas',
-  TimGames.TUsuario in 'entidades\TimGames.TUsuario.pas',
-  TimGames.TAdministrador in 'entidades\TimGames.TAdministrador.pas',
-  TimGames.TJogo in 'entidades\TimGames.TJogo.pas',
-  TimGames.TEmpresa in 'entidades\TimGames.TEmpresa.pas';
+  FrmMenuPrincipal in 'src/views/FrmMenuPrincipal.pas' {FrmPrincipalPadrao},
+  TimGames.TCliente in 'src\entidades\TimGames.TCliente.pas',
+  TimGames.TUsuario in 'src\entidades\TimGames.TUsuario.pas',
+  TimGames.TAdministrador in 'src\entidades\TimGames.TAdministrador.pas',
+  TimGames.TJogo in 'src\entidades\TimGames.TJogo.pas',
+  TimGames.TEmpresa in 'src\entidades\TimGames.TEmpresa.pas';
 
 {$R *.res}
 
