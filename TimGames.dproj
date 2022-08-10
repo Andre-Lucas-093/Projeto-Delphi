@@ -98,7 +98,7 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="Unit2.pas">
+        <DCCReference Include="FrmMenuPrincipal.pas">
             <Form>FrmPrincipalPadrao</Form>
         </DCCReference>
         <DCCReference Include="entidades\TimGames.TCliente.pas"/>
@@ -128,6 +128,12 @@
                 </Source>
             </Delphi.Personality>
             <Deployment Version="3">
+                <DeployFile LocalName="Win32\Debug\TimGames.exe" Configuration="Debug" Class="ProjectOutput">
+                    <Platform Name="Win32">
+                        <RemoteName>TimGames.exe</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Win32\Debug\TimGames.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>TimGames.exe</RemoteName>

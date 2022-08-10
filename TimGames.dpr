@@ -2,7 +2,7 @@ program TimGames;
 
 uses
   Vcl.Forms,
-  Unit2 in 'Unit2.pas' {FrmPrincipalPadrao},
+  FrmMenuPrincipal in 'FrmMenuPrincipal.pas' {FrmPrincipalPadrao},
   TimGames.TCliente in 'entidades\TimGames.TCliente.pas',
   TimGames.TUsuario in 'entidades\TimGames.TUsuario.pas',
   TimGames.TAdministrador in 'entidades\TimGames.TAdministrador.pas',
