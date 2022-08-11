@@ -1,0 +1,69 @@
+unit TimGames.View.MenuPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Menus, Vcl.ExtCtrls, Vcl.Buttons, Vcl.Dialogs;
+
+type
+  TFrmPrincipalPadrao = class(TForm)
+    PnlPrincipalDireita: TPanel;
+    PnlPrincipalEsquerda: TPanel;
+    MainMenu1: TMainMenu;
+    MnPerfil: TMenuItem;
+    MnBiblioteca: TMenuItem;
+    Mn: TMenuItem;
+    MnLojas: TMenuItem;
+    MnEMPRESAS: TMenuItem;
+    PnlBotoesEsquerda: TPanel;
+    PnlSbtEmpresas: TPanel;
+    SbtEmpresas: TSpeedButton;
+    PnlSbtPerfil: TPanel;
+    SbtPerfil: TSpeedButton;
+    PnlSbtLojas: TPanel;
+    PnlSeparadorEspaco: TPanel;
+    Panel1: TPanel;
+    Panel2: TPanel;
+    PnlSbtBiblioteca: TPanel;
+    SpeedButton1: TSpeedButton;
+    Panel4: TPanel;
+    SpeedButton2: TSpeedButton;
+    procedure SbtEmpresasClick(Sender: TObject);
+    procedure SbtPerfilClick(Sender: TObject);
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmPrincipalPadrao: TFrmPrincipalPadrao;
+
+implementation
+
+ uses
+  FrmPerfilUsuariol;
+{$R *.dfm}
+
+
+procedure TFrmPrincipalPadrao.SbtEmpresasClick(Sender: TObject);
+begin
+ Showmessage('Funcionou!'); //('Funcionou!' + mrOk + MB_ICONWARNING);
+end;
+
+procedure TFrmPrincipalPadrao.SbtPerfilClick(Sender: TObject);
+begin
+  FrmPerfilUsuario := TFrmPerfilUsuario.Create(self);
+
+    FrmPerfilUsuario.Parent := PnlPrincipalDireita;
+    FrmPerfilUsuario.Align := alClient;
+    FrmPerfilUsuario.BorderStyle := bsNone;
+
+    FrmPerfilUsuario.Show;
+
+
+end;
+
+end.

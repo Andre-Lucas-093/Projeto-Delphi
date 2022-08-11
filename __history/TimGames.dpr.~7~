@@ -1,0 +1,24 @@
+program TimGames;
+
+uses
+  Vcl.Forms,
+  FrmMenuPrincipal in 'src\views\FrmMenuPrincipal.pas' {FrmPrincipalPadrao},
+  TimGames.TCliente in 'src\entidades\TimGames.TCliente.pas',
+  TimGames.TUsuario in 'src\entidades\TimGames.TUsuario.pas',
+  TimGames.TAdministrador in 'src\entidades\TimGames.TAdministrador.pas',
+  TimGames.TJogo in 'src\entidades\TimGames.TJogo.pas',
+  TimGames.TEmpresa in 'src\entidades\TimGames.TEmpresa.pas',
+  Vcl.Themes,
+  Vcl.Styles,
+  FrmPerfilUsuariol in 'src\views\FrmPerfilUsuariol.pas' {FrmPerfilUsuario};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmPrincipalPadrao, FrmPrincipalPadrao);
+  Application.CreateForm(TFrmPerfilUsuario, FrmPerfilUsuario);
+  Application.Run;
+
+end.
