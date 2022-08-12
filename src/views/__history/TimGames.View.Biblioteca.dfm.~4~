@@ -1,0 +1,54 @@
+object FrmBiblioteca: TFrmBiblioteca
+  Left = 0
+  Top = 0
+  Caption = 'FrmBiblioteca'
+  ClientHeight = 479
+  ClientWidth = 1060
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 1060
+    Height = 479
+    Align = alClient
+    BevelOuter = bvNone
+    Color = 16744576
+    ParentBackground = False
+    TabOrder = 0
+    object Panel2: TPanel
+      Left = 0
+      Top = 0
+      Width = 1060
+      Height = 57
+      Align = alTop
+      Padding.Top = 15
+      TabOrder = 0
+      object LblBiblioteca: TLabel
+        Left = 1
+        Top = 16
+        Width = 1058
+        Height = 24
+        Align = alTop
+        Alignment = taCenter
+        Caption = 'BIBLIOTECA'
+        Color = clWhite
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clHighlightText
+        Font.Height = -20
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        ExplicitWidth = 125
+      end
+    end
+  end
+end

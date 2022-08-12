@@ -105,11 +105,11 @@
         <DCCReference Include="src\views\TimGames.View.MenuPrincipal.pas">
             <Form>FrmPrincipalPadrao</Form>
         </DCCReference>
-        <DCCReference Include="src\entidades\TimGames.TCliente.pas"/>
-        <DCCReference Include="src\entidades\TimGames.TUsuario.pas"/>
-        <DCCReference Include="src\entidades\TimGames.TAdministrador.pas"/>
-        <DCCReference Include="src\entidades\TimGames.TJogo.pas"/>
-        <DCCReference Include="src\entidades\TimGames.TEmpresa.pas"/>
+        <DCCReference Include="src\entidades\TimGames.entidades.TCliente.pas"/>
+        <DCCReference Include="src\entidades\TimGames.entidades.TUsuario.pas"/>
+        <DCCReference Include="src\entidades\TimGames.entidades.TAdministrador.pas"/>
+        <DCCReference Include="src\entidades\TimGames.entidades.TJogo.pas"/>
+        <DCCReference Include="src\entidades\TimGames.entidades.TEmpresa.pas"/>
         <DCCReference Include="src\views\TimGames.View.PerfilUsuario.pas">
             <Form>FrmPerfilUsuario</Form>
             <FormType>dfm</FormType>
