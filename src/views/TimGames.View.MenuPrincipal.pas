@@ -4,7 +4,8 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Menus, Vcl.ExtCtrls, Vcl.Buttons, Vcl.Dialogs;
+  Vcl.Controls, Vcl.Forms, Vcl.Menus, Vcl.ExtCtrls, Vcl.Buttons, Vcl.Dialogs,
+  Vcl.StdCtrls, Vcl.Mask, ELSMaskEdit;
 
 type
   TFrmPrincipalPadrao = class(TForm)
@@ -33,6 +34,7 @@ type
     procedure SbtPerfilClick(Sender: TObject);
     procedure SbtBibliotecaClick(Sender: TObject);
     procedure SbtLojasClick(Sender: TObject);
+
 
   private
     { Private declarations }
@@ -80,6 +82,8 @@ begin
 
 
 end;
+
+
 
 procedure TFrmPrincipalPadrao.SbtBibliotecaClick(Sender: TObject);
 begin
