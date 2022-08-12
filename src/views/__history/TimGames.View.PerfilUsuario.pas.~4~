@@ -12,6 +12,12 @@ type
     Panel1: TPanel;
     LblPerfil: TLabel;
     Panel2: TPanel;
+    ELSMaskEdit1: TELSMaskEdit;
+    ELSMaskEdit2: TELSMaskEdit;
+    ELSMaskEdit3: TELSMaskEdit;
+    ELSMaskEdit4: TELSMaskEdit;
+    ELSMaskEdit5: TELSMaskEdit;
+    ELSMaskEdit6: TELSMaskEdit;
 
   private
     { Private declarations }
